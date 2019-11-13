@@ -1,0 +1,61 @@
+.wrapper{
+	position: relative;
+	width: 100%;
+	border: 1px solid #000000;
+}
+.left{
+	margin-top: 5px;
+	float: left;
+	width: 28%;
+	border-radius: 5px;
+}
+.right{
+	margin-top: 5px;
+	float: right;
+	width: 70%;
+	border-radius: 5px;
+}
+.image{
+	margin-top: 10px;
+  	left: 3%;
+  	text-align: center;
+}
+.image img{
+	border-radius: 100px;
+}
+.p_details p{
+	font-size: 20px;
+}
+.c_objective p{
+	font-size: 20px;
+}
+.education p{
+	font-size: 20px;
+}
+.work p{
+	font-size: 20px;
+}
+.achievements p{
+	font-size: 20px;
+}
+.interests p{
+	font-size: 20px;
+}
+.c_objective h2{
+	color: #1a3d8f;
+}
+.education h2{
+	color: #1a3d8f;
+}
+.work h2{
+	color: #1a3d8f;
+}
+.achievements h2{
+	color: #1a3d8f;
+}
+.interests h2{
+	color: #1a3d8f;
+}
+.education table tr td{
+	font-size: 20px;
+}
