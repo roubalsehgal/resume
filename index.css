@@ -1,13 +1,51 @@
+.header{
+	background-color: #2c537e;
+	border-radius: 20px;
+	margin-bottom: -10px;
+	box-shadow: 6px 6px 3px;
+}
+.header h1{
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+
 .wrapper{
 	position: relative;
 	width: 100%;
-	border: 1px solid #000000;
 }
+
+
 .left{
-	margin-top: 5px;
+	margin-top: 10px;
 	float: left;
 	width: 28%;
-	border-radius: 5px;
+}
+.image{
+	border-radius: 10px;
+}
+.image img{
+	margin-top: 10%;
+	border-radius: 100px;
+	box-shadow: 4px 4px 2px black;
+}
+.p_details{
+	background-color: #2c537e;
+	border-radius: 20px;
+	box-shadow: 6px 6px 3px;
+}
+.p_details h2{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+.p_details td{
+	color: white;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+.p_details a{
+	color: white;
+	text-decoration: none;
 }
 .right{
 	margin-top: 5px;
@@ -15,47 +53,36 @@
 	width: 70%;
 	border-radius: 5px;
 }
-.image{
-	margin-top: 10px;
-  	left: 3%;
-  	text-align: center;
-}
-.image img{
-	border-radius: 100px;
-}
-.p_details p{
+.right p{
 	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
 }
-.c_objective p{
-	font-size: 20px;
+.right hr{
+	border-radius: 20px;
+  	height: 7px;
+  	background: #999; 
+  	box-shadow: 0 5px 5px -5px black inset;
 }
-.education p{
-	font-size: 20px;
+#school
+{
+  width:700px;
+  margin-left:0px;
+  box-shadow:2px 2px 4px #2b546a;
 }
-.work p{
-	font-size: 20px;
+#school td
+{
+  color:black;
+  text-shadow:none;
 }
-.achievements p{
-	font-size: 20px;
+.interest
+{
+  
 }
-.interests p{
-	font-size: 20px;
+.interest h3
+{
+ text-shadow:2px 2px 4px #2b546a;
 }
-.c_objective h2{
-	color: #1a3d8f;
-}
-.education h2{
-	color: #1a3d8f;
-}
-.work h2{
-	color: #1a3d8f;
-}
-.achievements h2{
-	color: #1a3d8f;
-}
-.interests h2{
-	color: #1a3d8f;
-}
-.education table tr td{
-	font-size: 20px;
+#heading{
+	font-family: 'Poppins', sans-serif;
+	text-shadow: 1px 1px 1px black;
 }
